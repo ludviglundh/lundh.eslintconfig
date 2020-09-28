@@ -1,5 +1,5 @@
 {
-  "name": "lundh-eslint-config",
+  "name": "@lundh/eslint-config",
   "version": "1.0.0",
   "description": "My personal ESLint configuration",
   "main": "index.js",
