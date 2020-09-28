@@ -1,0 +1,36 @@
+{
+  "name": "lundh-eslint-config",
+  "version": "1.0.0",
+  "description": "My personal ESLint configuration",
+  "main": "index.js",
+  "author": "Ludvig Lundh <ludvig.lundh@ancon.io>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "format": "prettier --write \"**/*.js\"",
+    "lint": "eslint .",
+    "test": "npm run lint"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "dependencies": {
+    "babel-eslint": "10.0.0",
+    "eslint-config-airbnb": "^18.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.0",
+    "eslint-plugin-react-hooks": "^1.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "prettier": "^1.14.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=5.16.0"
+  }
+}
